@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://purl.stanford.edu/dy727pk7274/iiif/manifest",
+  "@type": "sc:Manifest",
+  "label": "BigGiantThug",
+  "attribution": "Copyright © Xingrui Chen. All Rights Reserved.",
+  "logo": {
+    "@id": "https://iiif.io/api/image/2.1/img/full.png/full/400,/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.io/api/image/2.1/img/full.png",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "First try"
+    },
+    {
+      "label": "Contributor",
+      "value": "Chen, Xingrui"
+    },
+    {
+      "label": "Type",
+      "value": "StillImage"
+    },
+    {
+      "label": "Type",
+      "value": "photographs"
+    },
+    {
+      "label": "Date",
+      "value": "1976"
+    },
+    {
+      "label": "Language",
+      "value": "engEnglish"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph"
+    },
+    {
+      "label": "Format",
+      "value": "slides"
+    },
+    {
+      "label": "Format",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "Subject",
+      "value": "Travel photography"
+    },
+    {
+      "label": "Subject",
+      "value": "Art and design"
+    },
+    {
+      "label": "Relation",
+      "value": "Stanford University. Libraries. Department of Special Collections and University ArchivesSC1094https://purl.stanford.edu/dy727pk7274"
+    },
+    {
+      "label": "Relation",
+      "value": "Matt Kahn papers, circa 1960s-1990s"
+    },
+    {
+      "label": "PublishDate",
+      "value": "2019-08-06T04:04:58Z"
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://stacks.stanford.edu/image/iiif/dy727pk7274%2FSC1094_s3_b14_f17_Cats_1976_0013/full/!400,400/0/default.jpg",
+    "@type": "dctypes:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://stacks.stanford.edu/image/iiif/dy727pk7274%2FSC1094_s3_b14_f17_Cats_1976_0013",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://purl.stanford.edu/dy727pk7274#sequence-1",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "viewingDirection": "left-to-right",
+      "canvases": [
+        {
+          "@id": "https://purl.stanford.edu/dy727pk7274/iiif/canvas/dy727pk7274_1",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "height": 6502,
+          "width": 4421,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/dy727pk7274/iiif/annotation/dy727pk7274_1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/dy727pk7274%2FSC1094_s3_b14_f17_Cats_1976_0013/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6502,
+                "width": 4421,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/dy727pk7274%2FSC1094_s3_b14_f17_Cats_1976_0013",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://purl.stanford.edu/dy727pk7274/iiif/canvas/dy727pk7274_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
